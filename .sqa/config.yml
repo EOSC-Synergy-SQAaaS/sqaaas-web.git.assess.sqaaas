@@ -1,0 +1,22 @@
+config:
+  credentials: []
+  project_repos:
+    ? ''
+    : branch: ''
+      repo: ''
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: staging
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/EOSC-synergy/sqaaas-web:
+      branch: ''
+      repo: https://github.com/EOSC-synergy/sqaaas-web.git
+environment:
+  JPL_KEEPGOING: true
+sqa_criteria:
+  QC.Lic:
+    repos:
+      github.com/EOSC-synergy/sqaaas-web:
+        commands:
+        - /usr/bin/env sh .sqa/script.frumpy-gold-ray.sh
+        container: qc.lic_silly-wisteria-dugong
+timeout: 600
