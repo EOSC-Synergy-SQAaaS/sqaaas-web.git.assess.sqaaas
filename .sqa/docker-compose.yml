@@ -1,5 +1,5 @@
 services:
-  qc.lic_silly-wisteria-dugong:
+  qc.lic_pretty-ultramarine-moorhen:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
