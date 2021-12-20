@@ -1,5 +1,5 @@
 services:
-  qc.lic_grumpy-wheat-wildebeest:
+  qc.lic_cloudy-eggplant-swan:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
