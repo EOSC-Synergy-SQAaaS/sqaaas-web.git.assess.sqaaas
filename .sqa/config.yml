@@ -8,7 +8,7 @@ config:
       branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/EOSC-synergy/sqaaas-web:
-      branch: master
+      branch: ''
       repo: https://github.com/EOSC-synergy/sqaaas-web.git
 environment:
   JPL_KEEPGOING: true
@@ -17,6 +17,6 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-peach-dogfish.sh
-        container: qc.lic_grumpy-wheat-wildebeest
+        - /usr/bin/env sh .sqa/script.beady-cerise-lynx.sh
+        container: qc.lic_cloudy-eggplant-swan
 timeout: 600
