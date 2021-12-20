@@ -8,7 +8,7 @@ config:
       branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/EOSC-synergy/sqaaas-web:
-      branch: ''
+      branch: master
       repo: https://github.com/EOSC-synergy/sqaaas-web.git
 environment:
   JPL_KEEPGOING: true
@@ -17,6 +17,6 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-gold-ray.sh
-        container: qc.lic_silly-wisteria-dugong
+        - /usr/bin/env sh .sqa/script.muzzy-cobalt-shrimp.sh
+        container: qc.lic_pretty-ultramarine-moorhen
 timeout: 600
