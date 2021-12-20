@@ -17,6 +17,6 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-cobalt-shrimp.sh
-        container: qc.lic_pretty-ultramarine-moorhen
+        - /usr/bin/env sh .sqa/script.boozy-peach-dogfish.sh
+        container: qc.lic_grumpy-wheat-wildebeest
 timeout: 600
