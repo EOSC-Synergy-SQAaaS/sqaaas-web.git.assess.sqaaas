@@ -1,5 +1,5 @@
 services:
-  qc.lic_cloudy-eggplant-swan:
+  qc.lic_cozy-pear-chimpanzee:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
