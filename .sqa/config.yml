@@ -1,6 +1,9 @@
 config:
   credentials: []
   project_repos:
+    ? ''
+    : branch: ''
+      repo: ''
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
@@ -14,6 +17,6 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-myrtle-wasp.sh
-        container: qc.lic_bumpy-lavender-collie
+        - /usr/bin/env sh .sqa/script.snazzy-crimson-barnacle.sh
+        container: qc.lic_lanky-tomato-sloth
 timeout: 600
