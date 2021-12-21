@@ -1,14 +1,11 @@
 config:
   credentials: []
   project_repos:
-    ? ''
-    : branch: ''
-      repo: ''
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/EOSC-synergy/sqaaas-web:
-      branch: master
+      branch: ''
       repo: https://github.com/EOSC-synergy/sqaaas-web.git
 environment:
   JPL_KEEPGOING: true
@@ -17,6 +14,6 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-crimson-barnacle.sh
-        container: qc.lic_lanky-tomato-sloth
+        - /usr/bin/env sh .sqa/script.slaphappy-lime-seahorse.sh
+        container: qc.lic_squirrely-corn-tzu
 timeout: 600
