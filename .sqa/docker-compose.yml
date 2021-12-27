@@ -1,5 +1,5 @@
 services:
-  qc.lic_muzzy-goldenrod-mayfly:
+  qc.lic_scaly-saffron-dunker:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
