@@ -14,6 +14,6 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-amaranth-bombay.sh
-        container: qc.lic_wimpy-magnolia-chimpanzee
+        - /usr/bin/env sh .sqa/script.cozy-ochre-chameleon.sh
+        container: qc.lic_sleazy-violet-mist
 timeout: 600
