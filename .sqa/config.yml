@@ -14,6 +14,6 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-green-ladybird.sh
-        container: qc.lic_sleepy-orchid-woodlouse
+        - /usr/bin/env sh .sqa/script.geeky-denim-sheepdog.sh
+        container: qc.lic_muzzy-goldenrod-mayfly
 timeout: 600
