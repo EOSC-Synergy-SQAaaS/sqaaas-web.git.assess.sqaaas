@@ -1,5 +1,5 @@
 services:
-  qc.lic_wimpy-magnolia-chimpanzee:
+  qc.lic_sleazy-violet-mist:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
