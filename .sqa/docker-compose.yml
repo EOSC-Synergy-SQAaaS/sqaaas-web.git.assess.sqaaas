@@ -1,5 +1,5 @@
 services:
-  qc.lic_sleazy-violet-mist:
+  qc.lic_boozy-coral-axolotl:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
