@@ -1,5 +1,5 @@
 services:
-  qc.lic_boozy-coral-axolotl:
+  qc.lic_skinny-gamboge-wrasse:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
