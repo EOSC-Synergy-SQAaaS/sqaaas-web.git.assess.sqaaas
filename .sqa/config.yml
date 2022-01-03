@@ -10,10 +10,23 @@ config:
 environment:
   JPL_KEEPGOING: true
 sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/EOSC-synergy/sqaaas-web:
+        commands:
+        - /usr/bin/env sh .sqa/script.snazzy-lime-orangutan.sh
+        container: qc.acc_wiggy-wisteria-skunk
+  QC.Doc:
+    repos:
+      this_repo:
+        commands:
+        - markdownlint --json .
+        - find_readme.py
+        container: qc.doc_bumpy-indigo-jaguar
   QC.Lic:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-amber-chow.sh
-        container: qc.lic_skinny-gamboge-wrasse
+        - /usr/bin/env sh .sqa/script.hilly-taupe-burmese.sh
+        container: qc.lic_sloppy-red-weasel
 timeout: 600
