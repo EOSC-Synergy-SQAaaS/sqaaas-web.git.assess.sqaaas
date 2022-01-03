@@ -1,5 +1,21 @@
 services:
-  qc.lic_skinny-gamboge-wrasse:
+  qc.acc_wiggy-wisteria-skunk:
+    command: sleep 6000000
+    image: bitnami/git
+    volumes:
+    - source: ./
+      target: /sqaaas-build
+      type: bind
+    working_dir: /sqaaas-build
+  qc.doc_bumpy-indigo-jaguar:
+    command: sleep 6000000
+    image: markdownlint/markdownlint:0.11.0
+    volumes:
+    - source: ./
+      target: /sqaaas-build
+      type: bind
+    working_dir: /sqaaas-build
+  qc.lic_sloppy-red-weasel:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
