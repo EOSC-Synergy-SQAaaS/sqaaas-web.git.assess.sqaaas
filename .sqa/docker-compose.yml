@@ -1,5 +1,5 @@
 services:
-  qc.acc_smelly-taupe-ocelot:
+  qc.acc_zippy-myrtle-hummingbird:
     command: sleep 6000000
     image: bitnami/git
     volumes:
@@ -7,7 +7,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.doc_scaly-saffron-markhor:
+  qc.doc_sunny-denim-seal:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc/markdownlint
       dockerfile: Dockerfile
@@ -17,7 +17,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.lic_ready-burgundy-capuchin:
+  qc.lic_greasy-peach-forest:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
