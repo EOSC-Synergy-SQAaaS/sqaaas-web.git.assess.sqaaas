@@ -21,7 +21,12 @@ sqa_criteria:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
         - /usr/bin/env sh .sqa/script.scaly-khaki-antelope.sh
-        - mdl --json .
+        container: qc.doc_sunny-denim-seal
+  QC.Doc:
+    repos:
+      github.com/EOSC-synergy/sqaaas-web:
+        commands:
+        - ls README*
         container: qc.doc_sunny-denim-seal
   QC.Lic:
     repos:
