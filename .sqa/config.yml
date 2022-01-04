@@ -14,19 +14,19 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-champagne-zebu.sh
-        container: qc.acc_randy-mauve-wrasse
+        - /usr/bin/env sh .sqa/script.cozy-mustard-maltese.sh
+        container: qc.acc_blurry-jade-crane
   QC.Doc:
     repos:
       this_repo:
         commands:
         - markdownlint --json .
         - find_readme.py
-        container: qc.doc_greasy-green-rhinoceros
+        container: qc.doc_geeky-firebrick-vole
   QC.Lic:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-blue-swan.sh
-        container: qc.lic_homely-ochre-horse
+        - /usr/bin/env sh .sqa/script.crappy-cyan-worm.sh
+        container: qc.lic_nippy-ivory-hornet
 timeout: 600
