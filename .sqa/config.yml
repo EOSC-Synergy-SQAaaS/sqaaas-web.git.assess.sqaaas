@@ -14,19 +14,18 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-grey-wasp.sh
-        container: qc.acc_smelly-taupe-ocelot
+        - /usr/bin/env sh .sqa/script.hasty-lemon-centipede.sh
+        container: qc.acc_zippy-myrtle-hummingbird
   QC.Doc:
     repos:
-      this_repo:
+      github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - mdl --json .
-        - find_readme.py
-        container: qc.doc_scaly-saffron-markhor
+        - /usr/bin/env sh .sqa/script.scaly-khaki-antelope.sh
+        container: qc.doc_sunny-denim-seal
   QC.Lic:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-silver-argentino.sh
-        container: qc.lic_ready-burgundy-capuchin
+        - /usr/bin/env sh .sqa/script.slaphappy-denim-spoonbill.sh
+        container: qc.lic_greasy-peach-forest
 timeout: 600
