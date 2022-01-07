@@ -16,15 +16,13 @@ sqa_criteria:
         commands:
         - /usr/bin/env sh .sqa/script.sleazy-smalt-fox.sh
         container: qc.acc_geeky-scarlet-beaver
-  QC.Doc01:
+  QC.Doc:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
         - /usr/bin/env sh .sqa/script.cozy-brown-badger.sh
         container: qc.doc01_crabby-rose-wolf
-  QC.Doc02:
-    repos:
-      github.com/EOSC-synergy/sqaaas-web:
+      github.com/EOSC-synergy/sqaaas-web_sleepy:
         commands:
         - /usr/bin/env sh .sqa/script.sleepy-cardinal-crab.sh
         container: qc.doc02_sleepy-cobalt-corgi
