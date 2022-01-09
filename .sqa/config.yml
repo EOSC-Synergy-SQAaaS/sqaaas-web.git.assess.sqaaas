@@ -14,22 +14,22 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-smalt-fox.sh
-        container: qc.acc_geeky-scarlet-beaver
+        - /usr/bin/env sh .sqa/script.messy-jade-barb.sh
+        container: qc.acc_goopy-corn-nightingale
   QC.Doc:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-brown-badger.sh
-        container: qc.doc01_crabby-rose-wolf
-      github.com/EOSC-synergy/sqaaas-web_sleepy:
+        - /usr/bin/env sh .sqa/script.stuffy-corn-zonkey.sh
+        container: qc.doc_trippy-lemon-serval
+      github.com/EOSC-synergy/sqaaas-web__2:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-cardinal-crab.sh
-        container: qc.doc02_sleepy-cobalt-corgi
+        - /usr/bin/env sh .sqa/script.thirsty-goldenrod-coyote.sh
+        container: qc.doc_snoopy-buff-numbat
   QC.Lic:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-azure-vulture.sh
-        container: qc.lic_blurry-indigo-drever
+        - /usr/bin/env sh .sqa/script.jumpy-xanthic-vulture.sh
+        container: qc.lic_greasy-malachite-bear
 timeout: 600
