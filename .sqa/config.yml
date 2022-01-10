@@ -14,22 +14,22 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-jade-barb.sh
-        container: qc.acc_goopy-corn-nightingale
+        - /usr/bin/env sh .sqa/script.hilly-eggplant-liger.sh
+        container: qc.acc_gamy-crimson-echidna
   QC.Doc:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-corn-zonkey.sh
-        container: qc.doc_trippy-lemon-serval
+        - /usr/bin/env sh .sqa/script.tasty-lime-hippopotamus.sh
+        container: qc.doc_gummy-harlequin-termite
       github.com/EOSC-synergy/sqaaas-web__2:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-goldenrod-coyote.sh
-        container: qc.doc_snoopy-buff-numbat
+        - /usr/bin/env sh .sqa/script.crappy-cinnabar-coyote.sh
+        container: qc.doc_messy-auburn-dhole
   QC.Lic:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-xanthic-vulture.sh
-        container: qc.lic_greasy-malachite-bear
+        - /usr/bin/env sh .sqa/script.shabby-periwinkle-olm.sh
+        container: qc.lic_flimsy-scarlet-tetra
 timeout: 600
