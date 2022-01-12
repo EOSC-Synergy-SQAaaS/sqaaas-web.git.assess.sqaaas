@@ -14,28 +14,28 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-red-chinook.sh
-        container: qc.acc_cheeky-white-sheep
+        - /usr/bin/env sh .sqa/script.thirsty-cinnamon-zebu.sh
+        container: qc.acc_wimpy-salmon-bloodhound
   QC.Doc:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-amethyst-neanderthal.sh
-        container: qc.doc_sunny-cerulean-abyssinian
+        - /usr/bin/env sh .sqa/script.paltry-xanthic-buffalo.sh
+        container: qc.doc_breezy-rose-coral
       github.com/EOSC-synergy/sqaaas-web__2:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-celadon-serval.sh
-        container: qc.doc_wimpy-sepia-olm
+        - /usr/bin/env sh .sqa/script.sickly-indigo-shrew.sh
+        container: qc.doc_leaky-magenta-whippet
   QC.Lic:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-cerulean-retriever.sh
-        container: qc.lic_skanky-bronze-koala
+        - /usr/bin/env sh .sqa/script.lousy-jade-burmese.sh
+        container: qc.lic_chummy-ecru-armadillo
   QC.Met:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-peach-coyote.sh
-        container: qc.met_hilly-seashell-civet
+        - /usr/bin/env sh .sqa/script.skimpy-fuchsia-chinook.sh
+        container: qc.met_bumpy-buff-millipede
 timeout: 600
