@@ -5,7 +5,6 @@ config:
       branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/EOSC-synergy/sqaaas-web:
-      branch: master
       repo: https://github.com/EOSC-synergy/sqaaas-web.git
 environment:
   JPL_KEEPGOING: true
@@ -14,28 +13,28 @@ sqa_criteria:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-firebrick-terrier.sh
-        container: qc.acc_skimpy-linen-worm
+        - /usr/bin/env sh .sqa/script.stinky-lilac-pig.sh
+        container: qc.acc_snippy-black-collie
   QC.Doc:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-blue-maltese.sh
-        container: qc.doc_cranky-chestnut-tzu
+        - /usr/bin/env sh .sqa/script.cloudy-periwinkle-kiwi.sh
+        container: qc.doc_tacky-black-shark
       github.com/EOSC-synergy/sqaaas-web__2:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-russet-macaque.sh
-        container: qc.doc_shabby-scarlet-lemming
+        - /usr/bin/env sh .sqa/script.greasy-plum-spoonbill.sh
+        container: qc.doc_tasty-turquoise-uguisu
   QC.Lic:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-pumpkin-beaver.sh
-        container: qc.lic_shaky-violet-crane
+        - /usr/bin/env sh .sqa/script.lumpy-persimmon-urchin.sh
+        container: qc.lic_wheezy-corn-russel
   QC.Met:
     repos:
       github.com/EOSC-synergy/sqaaas-web:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-brown-ostrich.sh
-        container: qc.met_messy-saffron-saola
+        - /usr/bin/env sh .sqa/script.homey-gamboge-angora.sh
+        container: qc.met_snippy-silver-flamingo
 timeout: 600
